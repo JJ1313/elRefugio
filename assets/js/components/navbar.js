@@ -1,7 +1,7 @@
 const templateNavbar = document.createElement('template');
 templateNavbar.innerHTML = `
   <style> 
-    @import "../../node_modules/bootstrap-icons/font/bootstrap-icons.css";
+    @import "../node_modules/bootstrap-icons/font/bootstrap-icons.css";
     nav{
       position: fixed;
       top:0;
@@ -166,7 +166,7 @@ templateNavbar.innerHTML = `
   </style>
   <nav>
     <div class="navbar">
-      <div class="burger"><img src="../../assets/img/icons/burger-icon.svg"></div>
+      <div class="burger"><img src="../assets/img/icons/burger-icon.svg"></div>
       <h1 class="brand"><a href="index.html">El REFUGIO</a></h1>
       <ul class="contact-info">
         <li><a href="#" class="social-link"><i class="bi bi-instagram"></i></a></li>
