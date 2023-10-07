@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>El Refugio | Galería</title>
+
+  <!-- BOOTSTRAP -->
+  <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js" defer></script>
+
+  <!-- FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+
+  <!-- STYLES -->
+  <link rel="stylesheet" href="./assets/css/styles.css">
+  <link rel="stylesheet" href="./assets/css/refugio.css">
+  <!-- COMPONENTS -->
+  <script src="./assets/js/components/navbar.js" defer></script>
+  <script src="./assets/js/components/footer.js" defer></script>
+  <script src="./assets/js/components/btnWsp.js" defer></script>
+  <script src="./assets/js/components/form.js" defer></script>
+</head>
+<body>
+  <header>
+    <navbar-comp></navbar-comp>
+  </header>
+  <main>
+    <section id="section-place">
+      <h2 class="section-title">Sobre El Lugar</h2>
+      <p class="section-text">Es una experiencia creada para que niños y niñas vivan una semana de conexión con la naturaleza en el <b>Refugio La Montaña</b>, un mágico lugar en la cordillera en un ambiente seguro y exclusivo para el desarrollo del campamento. La experiencia se desarrolla en la <b>localidad de Rio Blanco</b>, cercano a la ciudad de Los Andes, se ubica en el camino internacional a 1:15 hrs. de Santiago de Chile. </p>
+    </section>
+    <section id="section-map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1462.0696262610206!2d-70.31282354559137!3d-32.910334422522475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9687f89f580457db%3A0x33f392dc5ceb6286!2sClub%20de%20Campo%20R%C3%ADo%20Blanco!5e0!3m2!1ses!2scl!4v1696655950613!5m2!1ses!2scl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <!-- ====== SECTION CONTACTO ====== -->
+    <form-comp id="section-form"></form-comp>
+  </main>
+  <footer>
+    <footer-comp></footer-comp>
+    <btn-wsp-comp/>
+    <btn-up-comp/>
+  </footer>
+</body>
+</html>

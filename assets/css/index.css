@@ -1,0 +1,167 @@
+/* ====== HERO ====== */
+#hero {
+  height: calc(100dvh - var(--navbar-height));
+  background-color: var(--color-beige);
+  background-image: url('../img/hero.png');
+  background-size: cover;
+  background-position: right -100px;
+  position: relative;
+  margin-top: var(--navbar-height);
+  display: grid;
+  align-items: center;
+}
+
+#hero .hero-content {
+  margin-left: 9rem;
+  max-width: 32.6rem;
+}
+
+#hero .hero-title {
+  font-family: var(--font-primary);
+  color: var(--color-orange);
+  font-size: 3.4rem;
+  font-weight: 700;
+  line-height: 4rem;
+  letter-spacing: 0.01rem;
+}
+
+#hero .hero-text {
+  margin-top: 2.9rem;
+  font-family: var(--font-primary);
+  font-size: 1.12rem;
+  font-weight: 400;
+  line-height: 2rem;
+  letter-spacing: 0rem;
+}
+
+#hero .button.hero-btn {
+  margin-top: 2.9rem;
+  width: 15.7rem;
+  height: 4.1rem;
+  line-height: 3.7rem;
+}
+
+/* ====== SECTION SOBRE NOSOTROS ====== */
+#section-nosotros .img-wrapper {
+  margin-top: 5.2rem;
+  height: 22.5rem;
+}
+
+#section-nosotros .section-img {
+  object-fit: cover;
+  object-position: 0 41%;
+}
+
+/* ====== SECTION NUESTRAS ACTIVIDADES ====== */
+#section-actividades .img-wrapper {
+  height: 40.6rem;
+}
+
+/* ====== SECTION VIDEO ====== */
+#section-video {
+  position: relative;
+}
+
+#section-video .section-title {
+  margin-top: 3.1rem;
+  text-transform: initial;
+  transform: translateX(-210px) translateY(-50px) rotateZ(-4.6deg);
+}
+
+#section-video .arrow {
+  position: relative;
+  width: 8.1rem;
+  height: 10rem;
+  object-fit: contain;
+  top: -10rem;
+  left: 5.6rem;
+  transform: rotateZ(-70deg);
+
+}
+
+#section-video .video {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  width: 38.1rem;
+  height: 26.4rem;
+  border-radius: 1.25rem;
+}
+
+#section-video .video-square {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  width: 50rem;
+  height: 36.25rem;
+}
+
+/* ====== SECTION TESTIMONIOS ====== */
+#section-testimonios {
+  background-color: var(--color-beige);
+}
+
+#section-testimonios .section-title {
+  margin-top: 4rem;
+}
+
+#section-testimonios .carrousel-container {
+  margin-top: 5rem;
+}
+
+#section-testimonios .carrousel-item {
+  width: 38.25rem;
+  height: 22.62rem;
+  transform: translateX(-50%);
+  margin-top: 3rem;
+  left: 50%;
+}
+
+#section-testimonios .testimonio-content {
+  font-family: var(--font-primary);
+  padding: 1.56rem;
+  padding-top: 3.75rem;
+  background-color: var(--color-white);
+  margin-top: -3.625rem;
+  border-radius: 1.25rem;
+}
+
+#section-testimonios .testimonio-img {
+  width: 7.25rem;
+  height: 7.25rem;
+  border-radius: 6.25rem;
+}
+
+#section-testimonios .carrousel-marks {
+  flex-direction: row;
+  left: 50%;
+  justify-content: center;
+  height: 1.06rem;
+  top: 120%;
+}
+
+#section-testimonios .carrousel-controls {
+  display: flex;
+  width: clamp(6.25rem, 60rem, 100vw);
+  justify-content: space-between;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 65%;
+  left: 50%;
+}
+
+#section-testimonios .carrousel-controls>div {
+  width: 4.31rem;
+  height: 4.31rem;
+  background-color: var(--color-white);
+  display: grid;
+  align-items: center;
+  border-radius: 2.19rem;
+}
+
+/* ====== SECTION CONTACTO ====== */
+#section-contacto .section-title {
+  text-transform: initial;
+}

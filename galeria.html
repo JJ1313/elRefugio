@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>El Refugio | Galería</title>
+
+  <!-- BOOTSTRAP -->
+  <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js" defer></script>
+
+  <!-- FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+
+  <!-- STYLES -->
+  <link rel="stylesheet" href="./assets/css/styles.css">
+  <link rel="stylesheet" href="./assets/css/gallery.css">
+  <!-- COMPONENTS -->
+  <script src="./assets/js/components/navbar.js" defer></script>
+  <script src="./assets/js/components/footer.js" defer></script>
+  <script src="./assets/js/components/btnWsp.js" defer></script>
+  <script src="./assets/js/components/form.js" defer></script>
+</head>
+<body>
+  <header>
+    <navbar-comp></navbar-comp>
+  </header>
+  <main>
+    <section id="section-gallery" class="section">
+      <h2 class="section-title">Galería</h2>
+      <p class="section-text">Es una experiencia creada para que niños y niñas vivan una semana de conexión con la naturaleza en el <b>Refugio La Montaña</b>, un mágico lugar en la cordillera en un ambiente seguro y exclusivo para el desarrollo del campamento. La experiencia se desarrolla en la <b>localidad de Rio Blanco</b>, cercano a la ciudad de Los Andes, se ubica en el camino internacional a 1:15 hrs. de Santiago de Chile. </p>
+      <div class="gallery-container">
+        <img src="./assets/img/AdobeStock_94274587.webp" alt="">
+        <img src="./assets/img/AdobeStock_94274587.webp" alt="">
+        <img src="./assets/img/AdobeStock_94274587.webp" alt="">
+        <img src="./assets/img/AdobeStock_94274587.webp" alt="">
+        <img src="./assets/img/AdobeStock_94274587.webp" alt="">
+        <img src="./assets/img/AdobeStock_94274587.webp" alt="">
+      </div>
+    </section>
+    <!-- ====== SECTION CONTACTO ====== -->
+    <form-comp id="section-form"></form-comp>
+  </main>
+  <footer>
+    <footer-comp></footer-comp>
+    <btn-wsp-comp/>
+    <btn-up-comp/>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>El Refugio | Campamento de verano</title>
+
+  <!-- BOOTSTRAP -->
+  <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js" defer></script>
+
+  <!-- FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+
+  <!-- STYLES -->
+  <link rel="stylesheet" href="./assets/css/styles.css">
+  <link rel="stylesheet" href="./assets/css/index.css">
+  <!-- JS -->
+  <script src="./assets/js/carrousel.js" defer></script>
+  <!-- COMPONENTS -->
+  <script src="./assets/js/components/navbar.js" defer></script>
+  <script src="./assets/js/components/footer.js" defer></script>
+  <script src="./assets/js/components/btnWsp.js" defer></script>
+  <script src="./assets/js/components/form.js" defer></script>
+</head>
+<body>
+  <header>
+    <navbar-comp></navbar-comp>
+  </header>
+  <main>
+      <!-- ====== SECTION HERO ======  -->
+      <section id="hero">
+        <div class="hero-content">
+          <h2 class="hero-title">Aprende en la montaña</h2>
+          <p class="hero-text">Vive el verano de tu vida junto a otros niños en un entorno natural único en el Valle de Aconcagua</p>
+          <a href="#section-form" class="button hero-btn">contactar</a>
+        </div>
+        <img class="paper paper-bottom " src="./assets/img/paper-bottom.png" alt="">
+      </section>
+
+      <!-- ====== SECTION SOBRE NOSOTROS ======  -->
+      <section id="section-nosotros" class="section">
+        <h2 class="section-title">Sobre Nosotros</h2>
+        <p class="section-text">Es una experiencia creada para que niños y niñas vivan una semana de conexión con la naturaleza en el <b>Refugio La Montaña</b>, un mágico lugar en la cordillera en un ambiente seguro y exclusivo para el desarrollo del campamento. La experiencia se desarrolla en la <b>localidad de Rio Blanco</b>, cercano a la ciudad de Los Andes, se ubica en el camino internacional a 1:15 hrs. de Santiago de Chile.  <a href="/nosotros.html">Leer más</a></p>
+        <div class="img-wrapper">
+          <img class="paper paper-top"src="../assets/img/paper-top.png" alt="">
+          <img class="section-img" loading="lazy" src="./assets/img/index-nosotros.jpg" alt="">
+          <img class="paper paper-bottom"src="../assets/img/paper-bottom.png" alt="">
+        </div>
+      </section>
+
+      <!-- ====== SECTION NUESTRAS ACTIVIDADES ======  -->
+      <section id="section-actividades" class="section">        
+        <h2 class="section-title">Nuestras Actividades</h2>
+        <div class="carrousel-container">
+          <img class="paper paper-top paper-mirror"src="../assets/img/paper-top.png" alt="">
+          <div class="carrousel-vertical">
+            <div class="carrousel-item active">
+              <!-- Trekking|Artes|Huerto|Escalada|Yoga|Cocina -->
+              <h2>Trekking</h2>
+              <img loading="lazy" src="./assets/img/Welsh-Corgi-Canis-familiaris-puppy.jpg" alt="">
+            </div>
+            <div class="carrousel-item">
+              <h2>Artes</h2>
+              <img loading="lazy" src="./assets/img/Welsh-Corgi-Canis-familiaris-puppy.jpg" alt="">
+            </div>
+            <div class="carrousel-item">
+              <h2>Huerto</h2>
+              <img loading="lazy" src="./assets/img/Welsh-Corgi-Canis-familiaris-puppy.jpg" alt="">
+            </div>
+            <div class="carrousel-item">
+              <h2>Escalada</h2>
+              <img loading="lazy" src="./assets/img/Welsh-Corgi-Canis-familiaris-puppy.jpg" alt="">
+            </div>
+            <div class="carrousel-item">
+              <h2>Yoga</h2>
+              <img loading="lazy" src="./assets/img/Welsh-Corgi-Canis-familiaris-puppy.jpg" alt="">
+            </div>
+            <div class="carrousel-item">
+              <h2>Cocina</h2>
+              <img loading="lazy" src="./assets/img/Welsh-Corgi-Canis-familiaris-puppy.jpg" alt="">
+            </div>
+          </div>
+          <div class="carrousel-marks">
+            <div class="carrousel-mark active"></div>
+            <div class="carrousel-mark"></div>
+            <div class="carrousel-mark"></div>
+            <div class="carrousel-mark"></div>
+            <div class="carrousel-mark"></div>
+            <div class="carrousel-mark"></div>
+          </div>
+          <img class="paper paper-bottom paper-mirror"src="../assets/img/paper-bottom.png" alt="">
+        </div>
+      </section>
+      
+      <!-- ====== SECTION VIDEO ====== -->
+      <section id="section-video" class="section">
+        <img class="video-square" src="./assets/img/cuadro_video.png" alt="">
+        <h2 class="section-title">Echa un vistazo!</h2>
+        <img class="arrow" src="./assets/img/flecha.png">
+        <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/8udbWAeuSLw?si=mx9fwVpUnht2BL6B" title="YouTube video player" frameborder="0"  allowfullscreen></iframe>
+      </section>
+      
+      <!-- ====== SECTION TESTIMONIOS ====== -->
+      <section id="section-testimonios" class="section">
+        <img class="paper paper-top"src="../assets/img/paper-top.png" alt="">
+        <h2 class="section-title">testimonios</h2>
+        <div class="carrousel-container">
+          <div class="carrousel-horizontal">
+            <div class="carrousel-item">
+              <img class="testimonio-img" src="./assets/img/AdobeStock_94274587.webp" alt="">
+              <div class="testimonio-content">
+                <h5>Carmen Cortez</h5>
+                <h6 class="testimonio-bajada">Mamá</h6>
+                <div class="testimonio-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim </div>
+              </div>
+            </div>
+          </div>
+          <div class="carrousel-marks">
+            <div class="carrousel-mark active"></div>
+            <div class="carrousel-mark"></div>
+            <div class="carrousel-mark"></div>
+          </div>
+          <div class="carrousel-controls">
+            <div class="carrousel-prev"><</div>
+            <div class="carrousel-next">></div>
+          </div>
+        </div>
+        <img class="paper paper-bottom"src="../assets/img/paper-bottom.png" alt="">
+      </section>
+
+      <!-- ====== SECTION CONTACTO ====== -->
+      <form-comp id="section-form"></form-comp>
+  </main>
+  <footer>
+    <footer-comp></footer-comp>
+    <btn-wsp-comp/>
+    <btn-up-comp/>
+  </footer>
+</body>
+</html>
