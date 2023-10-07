@@ -7,7 +7,7 @@ templateForm.innerHTML = `
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      gap: 0;
+      margin-top: 4rem
     }
     label{
       display: none;

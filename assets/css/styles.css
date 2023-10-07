@@ -26,6 +26,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: var(--color-white);
+}
+
 h1,
 h2,
 p {
@@ -102,6 +106,7 @@ img {
   overflow: auto;
   scrollbar-width: none;
   scroll-snap-type: y mandatory;
+  transition: 1s;
 }
 
 .carrousel-vertical::-webkit-scrollbar {

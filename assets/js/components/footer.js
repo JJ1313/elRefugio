@@ -1,7 +1,7 @@
 const templateFooter = document.createElement('template')
 templateFooter.innerHTML = `
   <style> 
-    @import "../node_modules/bootstrap-icons/font/bootstrap-icons.css";
+    @import "./node_modules/bootstrap-icons/font/bootstrap-icons.css";
     .footer{
       min-height: calc(50vh);
       background-color:var(--color-beige);

@@ -1,7 +1,7 @@
 const templateNavbar = document.createElement('template');
 templateNavbar.innerHTML = `
   <style> 
-    @import "../node_modules/bootstrap-icons/font/bootstrap-icons.css";
+    @import "./node_modules/bootstrap-icons/font/bootstrap-icons.css";
     nav{
       position: fixed;
       top:0;
@@ -181,7 +181,7 @@ templateNavbar.innerHTML = `
     <li class="navbar-item"><a class="navbar-link" href="nosotros.html">Nosotros</a></li>
     <li class="navbar-item"><a class="navbar-link" href="refugio.html">El Refugio</a></li>
     <li class="navbar-item"><a class="navbar-link" href="galeria.html">Galeria</a></li>
-    <li class="navbar-item"><a class="navbar-link" href="#">Preguntas frecuentes</a></li>
+    <li class="navbar-item"><a class="navbar-link" href="preguntas-frecuentes.html">Preguntas frecuentes</a></li>
     <li class="navbar-item"><a class="navbar-link" href="#section-form">Contacto</a></li>
   </ul>
 `
@@ -211,6 +211,11 @@ class Navbar extends HTMLElement{
       navbarCollapsable.classList.remove('hidden');
     });
     burgerClose.addEventListener('click', ()=>{
+      navbarCollapsable.classList.add('hidden');
+    });
+
+    const btnContacto = this.shadowRoot.querySelector('.navbar-collapsable li:last-child');
+    btnContacto.addEventListener('click', ()=>{
       navbarCollapsable.classList.add('hidden');
     });
   }
